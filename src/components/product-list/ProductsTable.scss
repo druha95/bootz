@@ -1,0 +1,26 @@
+@import '../../assets/css/variables';
+
+.items-list {
+  padding: 20px 20px;
+
+  &__ordering {
+    padding: 0 15px;
+  }
+
+  &__pagination {
+    display: flex;
+    justify-content: center;
+
+    button {
+      outline: none;
+
+      &:hover {
+        background: $brd;
+      }
+
+      &.custom-class {
+        color: $black;
+      }
+    }
+  }
+}

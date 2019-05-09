@@ -1,0 +1,38 @@
+@import '../../assets/css/variables';
+@import '../../assets/css/mixins';
+
+.product-item {
+  padding: 20px;
+  margin: 20px 0;
+  border: 1px solid $brd;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: 'Verdana', sans-serif;
+  cursor: pointer;
+
+  &__brand-name {
+    font-size: .75em;
+    width: 100%;
+    @include three-dots();
+  }
+
+  &__product-name {
+    font-size: 1em;
+    width: 100%;
+    @include three-dots();
+  }
+
+  &__price {
+    color: $red;
+    font-size: .8em;
+  }
+
+  &__image-container {
+    width: 100%;
+  }
+
+  &__image {
+    width: 100%;
+    min-height: 425px;
+  }
+}

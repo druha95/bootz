@@ -1,0 +1,9 @@
+.ordering-select {
+  display: flex;
+  vertical-align: center;
+
+  &__label {
+    margin-right: 20px;
+    font-size: 18px;
+  }
+}

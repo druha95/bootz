@@ -1,0 +1,6 @@
+To run application
+
+npm install
+npm start
+
+Demo http://165.22.65.79/#/
