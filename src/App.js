@@ -1,7 +1,6 @@
 import React from 'react';
 import { HashRouter as Router, Route, Link } from 'react-router-dom';
 import MainPage from './pages/MainPage';
-import logo from './assets/img/logo.svg';
 import './App.scss';
 
 const AppRouter = () => {
@@ -9,9 +8,9 @@ const AppRouter = () => {
         <div>
             <Router>
                 <div>
-                    <div className={'logo'}>
-                        <img className={'logo__image'} src={logo} alt="Bootz"/>
-                    </div>
+                    <h1 className={'logo'}>
+                        Bootz
+                    </h1>
                     <nav className={'navbar navbar-dark bg-dark'}>
                         <ul className={'navbar-nav'}>
                             <li className={'nav-item active'}>
