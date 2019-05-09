@@ -9,7 +9,7 @@ const AppRouter = () => {
             <Router>
                 <div>
                     <h1 className={'logo'}>
-                        Bootz
+                        Boozt
                     </h1>
                     <nav className={'navbar navbar-dark bg-dark'}>
                         <ul className={'navbar-nav'}>
