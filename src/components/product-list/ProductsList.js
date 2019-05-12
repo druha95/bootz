@@ -38,9 +38,12 @@ class ProductsList extends Component {
     };
 
     createSortHandler = order => {
-        const orderBy = order !== 'none' ? 'actual_price' : 'id';
+        if (order === this.state.order) return;
 
-        this.setState({ order, orderBy, page: 0, offset: 0 });
+        const orderBy = order !== 'none' ? 'actualPrice' : 'id';
+        const orderNew = order !== 'none' ? order : 'desc';
+
+        this.setState({ order: orderNew, orderBy, page: 0, offset: 0 });
     };
 
     render() {
